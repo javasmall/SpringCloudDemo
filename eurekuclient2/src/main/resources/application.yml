@@ -1,0 +1,17 @@
+server:
+  port: 8883
+
+spring:
+  application:
+    name: service-hello
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="clouddemo" />
+        <module name="eurekuclient" />
+        <module name="eurekuclient2" />
+        <module name="eurekuserver" />
+        <module name="feigndemo" />
+        <module name="hystrixdemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekudemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="clouddemo" options="-parameters" />
+      <module name="eurekuclient" options="-parameters" />
+      <module name="eurekuclient2" options="-parameters" />
+      <module name="eurekudemo" options="-parameters" />
+      <module name="eurekuserver" options="-parameters" />
+      <module name="feigndemo" options="-parameters" />
+      <module name="hystrixdemo" options="-parameters" />
+    </option>
+  </component>
+</project>
