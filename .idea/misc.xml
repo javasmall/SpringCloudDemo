@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/eurekuclient2/pom.xml" />
         <option value="$PROJECT_DIR$/feigndemo/pom.xml" />
         <option value="$PROJECT_DIR$/hystrixdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/zuuldemo/pom.xml" />
       </list>
     </option>
   </component>

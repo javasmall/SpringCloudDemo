@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/eurekuserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feigndemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hystrixdemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuuldemo" charset="UTF-8" />
   </component>
 </project>

@@ -20,6 +20,7 @@
         <module>eurekuclient2</module>
         <module>feigndemo</module>
         <module>hystrixdemo</module>
+        <module>zuuldemo</module>
     </modules>
 
     <properties>

@@ -1,10 +1,9 @@
 server:
-  port: 8882
+  port: 8888
 
 spring:
   application:
-    name: service-hello
-
+    name: service-zuul
 
 
 eureka:
@@ -14,5 +13,13 @@ eureka:
   instance:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+zuul:
+  routes:
+    api-a:
+      path: /hello/**
+      serviceId: service-hello
+    api-b:
+      path: /feign/**
+      serviceId: service-feign
 
 
